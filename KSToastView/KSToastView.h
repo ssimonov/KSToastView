@@ -25,6 +25,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for KSToastView.
+FOUNDATION_EXPORT double KSToastViewVersionNumber;
+
+//! Project version string for KSToastView.
+FOUNDATION_EXPORT const unsigned char KSToastViewVersionString[];
+
 typedef void (^KSToastBlock)(void);
 
 @interface KSToastView : UIView
